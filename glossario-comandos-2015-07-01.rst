@@ -9,87 +9,110 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
+  Cria novo arquivo
+  Exemplo: $ cat > teste.txt
 
 
 cd
-  Descrição do comando
+  Muda de diretório
+  Exemplo: $ cd /etc
 
 
 cowsay
-  Descrição do comando
+    O programa gera a figura da famosa vaquinha das distros baseadas no Debian.
+    Exemplo: $ cowsay -f dragon "olá pessoa"
 
 
 echo
-  Descrição do comando
+  Exibe uma mensagem em seu shell.
+  Exemplo: $ echo Olá 
 
 
 env
-  Descrição do comando
+  Lista todas as variaveis ambiente.
+  Exemplo: $ env
 
 
 exit
-  Descrição do comando
+  Terminar seção.
+  Exemplo:$ exit
 
 
 help
-  Descrição do comando
+  Apresenta informações sobre os comandos.
+  Exemplo:$ help ou $ help nome_comando (para aparecer as informçãoes apenas sobre o comando especificado)
 
 
 HISTTIMEFORMAT="%d/%m/%y"
-  Descrição do comando
+  Apresenta as a data hora do dos comandos executados no histórico.
+  Exemplo: HISTTIMEFORMAT="%d/%m/%y %T"
+  
+  
 
 
 hostname
-  Descrição do comando
+  Exibe o nome da máquina.
+  Exemplo:$ hostname
 
 
 ifconfig
-  Descrição do comando
+  Configura as interfaces de rede e exibe o IP da máquina.
+  Exemplo:$ sudo ifconfig
 
 
 last
-  Descrição do comando
+  Mostra informações sobre os últimos logins, onde em quantidade você indica o número de logins.
+  Exemplo: $ last -10
 
 
 lastb
-  Descrição do comando
+  Exibir uma lista de recentes tentativas de login errados.
+  Exemplo: $ lastb nome_colega
 
 
 ls
-  Descrição do comando
+  Lista o conteúdo de um diretório.
+  Exemplo:$ ls
 
 
 mkdir
-  Descrição do comando
+  Cria uma pasta com o nome desejado.
+  Exemplo:  mkdir programas.
 
 
 nome="fulano
-  Descrição do comando
+  Cria e atribue uma variavel ambiente.
+  Exemplo:$ nome="fulano"
 
 
 passswd
-  Descrição do comando
+  Altera a senha do usuario.
+  Exemplo: sudo passswd nome_usuario
 
 
 pwd
-  Descrição do comando
+  Mostra o diretório corrente.
+  Exemplo: $ pwd
 
 
 set
-  Descrição do comando
+  Manipula as variáveis shell e funções.
+  Exemplo: $ set
 
 
 tree
-  Descrição do comando
+  É uma árvore de comando.
+  Exemplo:$ tree
 
 
 tty
-  Descrição do comando
+  Imprimi o nome do arquivo do terminal conectado à entrada padrão.
+  Exemplo:tty
 
 
 vim
-  Descrição do comando
+  Editor de texto, abre o arquivo e edita.
+  Exemplo:$ vim
 
 
 wait
