@@ -116,28 +116,35 @@ vim
 
 
 wait
-  Descrição do comando
+  Executa um programa apenas após o termino do outro.
+  Exemplo: $ wait
 
 
 wall
-  Descrição do comando
+  Envia mensagem para o ususarios.
+  Exemplo:$ echo "tu" |wall
 
 
 which
-  Descrição do comando
+  Busca arquivos no sistema rapidamente.
+  Exemplo: $ which nome_arquivo
 
 
 while
-  Descrição do comando
+  Laço de repetição.
+  Exemplo: $ while condição
 
 
 who
-  Descrição do comando
+  Mostra quem está conectado ao sistema nesse momento.
+  Exemplo: $ who
 
 
 whoami
-  Descrição do comando
+  Mostra quem se logou primeiro no sistema.
+  Exemplo:$ whoami
 
 write
-  Descrição do comando
+  Envia mensagem para usuarios logados no sistema.
+  Exemplo:$ echo $f |write nome_usuario
 
